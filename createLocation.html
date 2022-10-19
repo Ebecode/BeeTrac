@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear ubicacion</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="prov">Provincia</label>
+            <select name="prov" id="prov">
+                <option value="p1">Provincia 1</option>
+                <option value="p1">Provincia 2</option>
+                <option value="p1">Provincia 3</option>
+                <option value="p1">Provincia 4</option>
+            </select>
+        </p>
+        <p>
+            <label for="munic">Municipio</label>
+            <input type="text" name="municipio" id="munic">
+        </p>
+        <p>
+            <label for="sec">Sector</label>
+            <input type="text" name="sec" id="sec">
+        </p>
+        <p>
+            <label for="altd">Altitud</label>
+            <input type="number" name="altd" id="altd">
+            <select name="meas" id="meas">
+                <option value="mt">metros</option>
+                <option value="ft">pies</option>
+            </select>
+        </p>
+        <p>
+            <label for="coords">Coordenadas</label>
+            <input type="text" name="coords" id="coords">
+        </p>
+        <button type="submit">Guardar ubicacion</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear colmena</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="hive_name">Nombre de la colmena</label>
+            <input type="text" name="hive_name" id="hive_name">
+        </p>
+        <p>
+            <label for="hive_type">Tipo colmena</label>
+            <select name="hive_type" id="hive_type">
+                <option value="standard">Estandarizada</option>
+                <option value="trad">Tradicional</option>
+            </select>
+        </p>
+        <p>
+            <label for="frames">Cuadros</label>
+            <input type="number" name="frames" id="frames" step="1" min="0" max="30">
+        </p>
+        <p>
+            <label for="queen">Reina</label>
+            <select name="queen" id="queen">
+                <option value="q1">Reina 1</option>
+                <option value="q1">Reina 2</option>
+                <option value="q1">Reina 3</option>
+                <option value="q1">Reina 4</option>
+            </select>
+        </p>
+        <button type="submit">Crear colmena</button>
+    </form>
+</body>
+</html>
